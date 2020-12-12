@@ -2,6 +2,10 @@ body {
   font-family: 'Lexend Exa', sans-serif;
 }
 
+.tippy-popper {
+      font-size: 14px;
+}
+
 .absolutely-centered {
   position: absolute;
   left: 50%;
@@ -26,9 +30,8 @@ a:hover {
 }
 
 .link {
-  margin-bottom: 10px;
   display: inline-block;
-  margin: 0px 15px 20px 15px;
+  margin: 0 15px 20px;
 }
 
 .title {

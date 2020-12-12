@@ -3,6 +3,15 @@
  * Inspiration: https://github.com/JulianLaval/canvas-particle-network
 */
 
+$('#contact-link').attr('title', function(index, attr) {
+	return atob(atob(this.dataset.btoa)).substring(7);
+});
+new Tippy('#contact-link',{
+	position: 'top',
+	animation: 'perspective',
+	interactive: 'true'
+});
+
 var divs = $('span[id^="caption-"]').hide(),
     i = 0;
 
